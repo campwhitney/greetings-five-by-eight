@@ -1736,6 +1736,7 @@ function initFree() {
 }
 
 function onStateChange() {
+    alert("OnStateChange");
     var params = new URLSearchParams(location.search);
     var mode = params.get("mode")
     var tutorial = params.get("tutorial")
